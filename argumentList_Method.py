@@ -1,5 +1,6 @@
 def main():
-    printArguments('Rajeev', 'kumar', 'das')
+    x = ('Rajeev', 'kumar', 'das')
+    printArguments(*x)
 def printArguments(*args):
     if len(args):
         for s in args:
